@@ -2,11 +2,16 @@ body{
     margin: auto;
     background-color: blanchedalmond;
 }
-form .form-group input{
-    width: 20%;
+#form_body .form-group input{
+    width: 100%;
     margin: 3px 0 3px 0;
 }
-form{
+#form_body{
+    display:none;
     margin-left: 20px;
     padding: 20px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    width: 20%;
+    border-radius: 10px;
 }
