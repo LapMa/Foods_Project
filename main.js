@@ -14,6 +14,5 @@ function save(){
 function show_login(){
     console.log("Click")
     let form_body = document.getElementById("form_body");
-
     form_body.style.display = "grid";
 }
